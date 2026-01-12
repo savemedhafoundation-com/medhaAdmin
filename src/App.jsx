@@ -7,7 +7,7 @@ import BlogHeader from './components/BlogHeader'
 import BlogLibraryPanel from './components/BlogLibraryPanel'
 
 // const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api'
-const API_BASE = import.meta.env.VITE_API_BASE_URL || 'https://medha-backnd-git-main-save-medha-foundations-projects.vercel.app/api'
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'https://medha-backnd.vercel.app/api'
 const api = axios.create({ baseURL: API_BASE })
 
 const isEmptyHtml = value => {
